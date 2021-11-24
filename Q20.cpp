@@ -1,7 +1,3 @@
-/*
-Receba e apresente uma matriz de N Linhas x M Colunas valores inteiros. Após isso indique qual é o menor e
-valor da matriz.
-*/
 
 #include<stdio.h>
 #include <locale.h>
@@ -13,9 +9,9 @@ int main()
 	
 	int n,m,l,c,menor;
 	
-	printf("\n Digite o número de linhas:\n");
+	printf("\n Digite o nÃºmero de linhas:\n");
 	scanf("%d",&n);
-	printf("\n Digite o número de colunas:\n");
+	printf("\n Digite o nÃºmero de colunas:\n");
 	scanf("%d",&m);
 	
 	int matriz[n][m];
@@ -41,7 +37,7 @@ int main()
 		}
 		printf("\n");
 	}
-	printf("\n O menor número da matriz é %d.",menor);
+	printf("\n O menor nÃºmero da matriz Ã© %d.",menor);
 	
     return 0;
 }
